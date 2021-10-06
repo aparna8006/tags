@@ -6,9 +6,6 @@
         name: vsftpd
         state: installed
       tags: [never,web]
-
-
-
     - name: install httpd
       yum:
          name: httpd
